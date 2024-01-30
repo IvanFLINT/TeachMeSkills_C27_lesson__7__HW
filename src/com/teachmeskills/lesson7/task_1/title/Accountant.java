@@ -6,9 +6,10 @@ import com.teachmeskills.lesson7.task_1.jobTitle.IPositions;
  * This class contains descriptions of the accountant object
  */
 public class Accountant implements IPositions {
-
+    String name = "Зарубова Елена Николаевна";
+    double salary = 2000.345;
+    int age = 35;
     public void description() {
-        Description ds = new Description("Зарубова Елена Николаевна", 35, 2000.345);
-        System.out.println("Бухгалтер: " + ds.name + " ,Возраст: " + ds.age + " ,Заработная плата: " + ds.salary);
+        System.out.println("Бухгалтер: " + name + " ,Возраст: " + age + " ,Заработная плата: " + salary);
     }
 }

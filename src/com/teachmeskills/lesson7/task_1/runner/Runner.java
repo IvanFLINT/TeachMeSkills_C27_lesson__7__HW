@@ -10,10 +10,10 @@ import java.util.Scanner;
  */
 public class Runner {
     public static void main(String[] args) {
-        var sc = new Scanner(System.in);
-        var d1 = new Director();
-        var w1 = new Worker();
-        var a1 = new Accountant();
+        Scanner sc = new Scanner(System.in);
+        Director d1 = new Director();
+        Worker w1 = new Worker();
+        Accountant a1 = new Accountant();
 
         System.out.print("Введите должность - Директор, Бухгалтер, Рабочий: ");
         String jobTitle = sc.nextLine();
