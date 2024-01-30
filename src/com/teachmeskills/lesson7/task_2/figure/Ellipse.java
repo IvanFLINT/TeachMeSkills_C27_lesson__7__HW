@@ -13,12 +13,12 @@ public class Ellipse extends Figure {
     }
 
     @Override
-    public double areaCalculation() {
-        return PI * a * b;
+    public String areaCalculation() {
+        return "Площадь элипса: " + PI * a * b;
     }
 
     @Override
-    public double perimeterCalculation() {
-        return 4 * (((PI * a * b) + Math.pow(a - b, 2)) / (a + b));
+    public String perimeterCalculation() {
+        return "Периметр элипса: " + 4 * (((PI * a * b) + Math.pow(a - b, 2)) / (a + b));
     }
 }

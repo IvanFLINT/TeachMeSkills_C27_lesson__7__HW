@@ -11,12 +11,12 @@ public class Trapeze extends Figure {
         this.h = h;
     }
     @Override
-    public double areaCalculation() {
-        return (a + b) * h / 2;
+    public String  areaCalculation() {
+        return "Площадь тропеции: " + (a + b) * h / 2;
     }
 
     @Override
-    public double perimeterCalculation() {
-        return a + a + b + b;
+    public String perimeterCalculation() {
+        return "Периметр тропеции: " + a + a + b + b;
     }
 }

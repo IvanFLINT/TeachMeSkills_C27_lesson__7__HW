@@ -5,9 +5,8 @@ package com.teachmeskills.lesson7.task_2.figure;
  */
 public abstract class Figure {
 
-    public abstract double areaCalculation();
+    public abstract String areaCalculation();
 
-    public abstract double perimeterCalculation();
-
+    public abstract String perimeterCalculation();
 
 }

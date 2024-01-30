@@ -15,12 +15,12 @@ public class Triangle extends Figure {
     }
 
     @Override
-    public double areaCalculation() {
-        return (a * h) / 2;
+    public String  areaCalculation() {
+        return "Площадь треугольника: " + (a * h) / 2;
     }
 
     @Override
-    public double perimeterCalculation() {
-        return a + b + c;
+    public String perimeterCalculation() {
+        return "Периметр треугольника: " + a + b + c;
     }
 }

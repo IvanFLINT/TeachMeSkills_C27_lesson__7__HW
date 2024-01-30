@@ -13,12 +13,12 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public double areaCalculation() {
-        return a * b;
+    public String areaCalculation() {
+        return "Площадь прямоугольника: " + a * b;
     }
 
     @Override
-    public double perimeterCalculation() {
-        return a + a + b + b;
+    public String perimeterCalculation() {
+        return "Периметр прямоугольника: " + a + a + b + b;
     }
 }

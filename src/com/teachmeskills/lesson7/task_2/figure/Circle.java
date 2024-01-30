@@ -12,12 +12,12 @@ public class Circle extends Figure {
     }
 
     @Override
-    public double areaCalculation() {
-        return PI * r * r;
+    public String areaCalculation() {
+        return "Площадь окружности: " + PI * r * r;
     }
 
     @Override
-    public double perimeterCalculation() {
-        return 2 * PI * r;
+    public String perimeterCalculation() {
+        return "Периметр окружности: " + 2 * PI * r;
     }
 }
