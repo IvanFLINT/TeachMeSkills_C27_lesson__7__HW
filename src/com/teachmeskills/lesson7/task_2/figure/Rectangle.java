@@ -6,6 +6,7 @@ package com.teachmeskills.lesson7.task_2.figure;
 public class Rectangle extends Figure {
 
     double a, b;
+    public double p;
 
     public Rectangle(double a, double b) {
         this.a = a;
@@ -19,6 +20,7 @@ public class Rectangle extends Figure {
 
     @Override
     public String perimeterCalculation() {
-        return "Периметр прямоугольника: " + a + a + b + b;
+        p = a + a + b + b;
+        return "Периметр прямоугольника: " + p;
     }
 }

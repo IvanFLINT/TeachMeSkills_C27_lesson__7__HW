@@ -23,6 +23,7 @@ public class Runner {
         for (String s : arrSquare) {
             System.out.println(s);
         }
+        System.out.print("Сумма всех периметров = " + (el.p + tra.p + tri.p + rec.p + cir.p));
     }
 }
 

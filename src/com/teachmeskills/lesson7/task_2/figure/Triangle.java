@@ -6,6 +6,7 @@ package com.teachmeskills.lesson7.task_2.figure;
 public class Triangle extends Figure {
 
     double a, b, c, h;
+    public double p;
 
     public Triangle(double a, double b, double c, double h) {
         this.a = a;
@@ -21,6 +22,7 @@ public class Triangle extends Figure {
 
     @Override
     public String perimeterCalculation() {
-        return "Периметр треугольника: " + a + b + c;
+        p = a + b + c;
+        return "Периметр треугольника: " + p;
     }
 }

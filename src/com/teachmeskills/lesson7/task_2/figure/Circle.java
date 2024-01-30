@@ -5,6 +5,7 @@ package com.teachmeskills.lesson7.task_2.figure;
  */
 public class Circle extends Figure {
     double r;
+    public double p;
     final double PI = 3.14;
 
     public Circle(double r) {
@@ -18,6 +19,7 @@ public class Circle extends Figure {
 
     @Override
     public String perimeterCalculation() {
-        return "Периметр окружности: " + 2 * PI * r;
+        p = 2 * PI * r;
+        return "Периметр окружности: " + p;
     }
 }

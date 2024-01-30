@@ -6,6 +6,7 @@ package com.teachmeskills.lesson7.task_2.figure;
 public class Ellipse extends Figure {
     final double PI = 3.14;
     double a, b;
+    public double p;
 
     public Ellipse(double a, double b) {
         this.a = a;
@@ -19,6 +20,7 @@ public class Ellipse extends Figure {
 
     @Override
     public String perimeterCalculation() {
-        return "Периметр элипса: " + 4 * (((PI * a * b) + Math.pow(a - b, 2)) / (a + b));
+        p = 4 * (((PI * a * b) + Math.pow(a - b, 2)) / (a + b));
+        return "Периметр элипса: " + p;
     }
 }

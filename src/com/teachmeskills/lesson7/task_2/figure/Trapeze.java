@@ -5,6 +5,7 @@ package com.teachmeskills.lesson7.task_2.figure;
  */
 public class Trapeze extends Figure {
     double a , b , h;
+    public double p;
     public Trapeze(double a, double b, double h){
         this.a = a;
         this.b = b;
@@ -17,6 +18,7 @@ public class Trapeze extends Figure {
 
     @Override
     public String perimeterCalculation() {
-        return "Периметр тропеции: " + a + a + b + b;
+        p = a + a + b + b;
+        return "Периметр тропеции: " + p;
     }
 }
